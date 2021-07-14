@@ -1,0 +1,21 @@
+{
+  "name": "pnp-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "installConfig": {
+    "pnp": true
+  },
+  "dependencies": {
+    "qs": "^6.10.1"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
